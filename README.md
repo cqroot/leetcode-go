@@ -15,6 +15,7 @@
 
 ## Database
 
-| ID   | Solution                                                                                                                   | Difficulty |
-|:-----|:---------------------------------------------------------------------------------------------------------------------------|:-----------|
-| 0175 | [Combine Two Tables](https://github.com/cqroot/leetcode-go/blob/main/database/P0175.CombineTwoTables/CombineTwoTables.sql) | Easy       |
+| ID   | Solution                                                                                                                                               | Difficulty |
+|:-----|:-------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|
+| 0175 | [Combine Two Tables](https://github.com/cqroot/leetcode-go/blob/main/database/P0175.CombineTwoTables.sql)                                              | Easy       |
+| 0181 | [Employees Earning More Than Their Managers](https://github.com/cqroot/leetcode-go/blob/main/database/P0181.EmployeesEarningMoreThanTheirManagers.sql) | Easy       |
