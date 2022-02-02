@@ -21,3 +21,4 @@
 | 0175 | [Combine Two Tables](https://github.com/cqroot/leetcode-go/blob/main/database/P0175.CombineTwoTables.sql)                                              | Easy       |
 | 0181 | [Employees Earning More Than Their Managers](https://github.com/cqroot/leetcode-go/blob/main/database/P0181.EmployeesEarningMoreThanTheirManagers.sql) | Easy       |
 | 0182 | [Duplicate Emails](https://github.com/cqroot/leetcode-go/blob/main/database/P0182.DuplicateEmails.sql)                                                 | Easy       |
+| 0183 | [Customers Who Never Order](https://github.com/cqroot/leetcode-go/blob/main/database/P0183.CustomersWhoNeverOrder)                                     | Easy       |
