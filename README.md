@@ -13,6 +13,7 @@
 | 0017 | [Letter Combinations of a Phone Number](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-hashmap/P0017.LetterCombinationsOfAPhoneNumber)                        | Medium     |
 | 0020 | [Valid Parentheses](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-stack/P0020.ValidParentheses)                                                              | Easy       |
 | 0021 | [Merge Two Sorted Lists](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-list/P0021.MergeTwoSortedLists)                                                       | Easy       |
+| 0027 | [Remove Element](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-list/P0027.RemoveElement)                                                       | Easy       |
 
 ## Database
 
