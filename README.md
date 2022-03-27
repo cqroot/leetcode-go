@@ -4,6 +4,7 @@
 
 | ID | Solution |
 | :-- | :-- |
+| 0300 | [LongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/Algorithms/dp/P0300.LongestIncreasingSubsequence) |
 | 0027 | [RemoveElement](https://github.com/cqroot/leetcode-go/blob/main/Algorithms/ds-array/P0027.RemoveElement) |
 | 0066 | [PlusOne](https://github.com/cqroot/leetcode-go/blob/main/Algorithms/ds-array/P0066.PlusOne) |
 | 0001 | [TwoSum](https://github.com/cqroot/leetcode-go/blob/main/Algorithms/ds-hashmap/P0001.TwoSum) |
