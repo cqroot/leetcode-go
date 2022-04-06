@@ -9,6 +9,7 @@
 | 0300 | [LongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0300.LongestIncreasingSubsequence) |
 | 0354 | [RussianDollEnvelopes](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0354.RussianDollEnvelopes) |
 | 0673 | [NumberOfLongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0673.NumberOfLongestIncreasingSubsequence) |
+| 0918 | [MaximumSumCircularSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0918.MaximumSumCircularSubarray) |
 | 0027 | [RemoveElement](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-array/P0027.RemoveElement) |
 | 0066 | [PlusOne](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-array/P0066.PlusOne) |
 | 0001 | [TwoSum](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-hashmap/P0001.TwoSum) |
