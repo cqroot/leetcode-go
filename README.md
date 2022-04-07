@@ -6,6 +6,7 @@
 | :-- | :-- |
 | 0053 | [MaximumSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0053.MaximumSubarray) |
 | 0152 | [MaximumProductSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0152.MaximumProductSubarray) |
+| 0198 | [house-robber](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0198.house-robber) |
 | 0300 | [LongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0300.LongestIncreasingSubsequence) |
 | 0354 | [RussianDollEnvelopes](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0354.RussianDollEnvelopes) |
 | 0673 | [NumberOfLongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0673.NumberOfLongestIncreasingSubsequence) |
