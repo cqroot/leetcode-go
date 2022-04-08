@@ -14,6 +14,7 @@
 | 0740 | [delete-and-earn](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0740.delete-and-earn) |
 | 0873 | [length-of-longest-fibonacci-subsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0873.length-of-longest-fibonacci-subsequence) |
 | 0918 | [MaximumSumCircularSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0918.MaximumSumCircularSubarray) |
+| 1027 | [longest-arithmetic-subsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P1027.longest-arithmetic-subsequence) |
 | 0027 | [RemoveElement](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-array/P0027.RemoveElement) |
 | 0066 | [PlusOne](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-array/P0066.PlusOne) |
 | 0001 | [TwoSum](https://github.com/cqroot/leetcode-go/blob/main/algorithms/ds-hashmap/P0001.TwoSum) |
