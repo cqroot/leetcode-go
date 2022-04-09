@@ -10,6 +10,7 @@
 | 0213 | [house-robber-ii](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0213.house-robber-ii) |
 | 0300 | [LongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0300.LongestIncreasingSubsequence) |
 | 0354 | [RussianDollEnvelopes](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0354.RussianDollEnvelopes) |
+| 0368 | [largest-divisible-subset](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0368.largest-divisible-subset) |
 | 0673 | [NumberOfLongestIncreasingSubsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0673.NumberOfLongestIncreasingSubsequence) |
 | 0740 | [delete-and-earn](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0740.delete-and-earn) |
 | 0873 | [length-of-longest-fibonacci-subsequence](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0873.length-of-longest-fibonacci-subsequence) |
