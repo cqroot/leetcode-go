@@ -29,6 +29,7 @@
 | 0005 | [LongestPalindromicSubstring](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0005.LongestPalindromicSubstring) |
 | 0014 | [LongestCommonPrefix](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0014.LongestCommonPrefix) |
 | 0028 | [ImplementStrstr](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0028.ImplementStrstr) |
+| 0032 | [longest-valid-parentheses](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0032.longest-valid-parentheses) |
 | 0121 | [BestTimeToBuyAndSellStock](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0121.BestTimeToBuyAndSellStock) |
 | 0344 | [ReverseString](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0344.ReverseString) |
 | 0412 | [FizzBuzz](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0412.FizzBuzz) |
