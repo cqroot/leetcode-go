@@ -33,6 +33,7 @@
 | 0121 | [BestTimeToBuyAndSellStock](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0121.BestTimeToBuyAndSellStock) |
 | 0344 | [ReverseString](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0344.ReverseString) |
 | 0412 | [FizzBuzz](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0412.FizzBuzz) |
+| 0413 | [arithmetic-slices](https://github.com/cqroot/leetcode-go/blob/main/algorithms/uncategorized/P0413.arithmetic-slices) |
 
 ## Database
 
