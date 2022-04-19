@@ -5,6 +5,7 @@
 | ID | Solution |
 | :-- | :-- |
 | 0053 | [MaximumSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0053.MaximumSubarray) |
+| 0091 | [decode-ways](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0091.decode-ways) |
 | 0152 | [MaximumProductSubarray](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0152.MaximumProductSubarray) |
 | 0198 | [house-robber](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0198.house-robber) |
 | 0213 | [house-robber-ii](https://github.com/cqroot/leetcode-go/blob/main/algorithms/dp/P0213.house-robber-ii) |
