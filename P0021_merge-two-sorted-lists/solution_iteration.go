@@ -1,9 +1,9 @@
 package solution
 
-// Iterative
+// Iteration
 // Time complexity  : O(len(list1) + len(list2))
 // Space complexity : O(1)
-func mergeTwoLists_Iterative(list1 *ListNode, list2 *ListNode) *ListNode {
+func mergeTwoLists_Iteration(list1 *ListNode, list2 *ListNode) *ListNode {
 	var result, current, node *ListNode
 
 	for list1 != nil && list2 != nil {

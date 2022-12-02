@@ -3,8 +3,9 @@ package solution
 import (
 	"testing"
 
-	"github.com/cqroot/leetcode-go/datastructure"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/cqroot/leetcode-go/datastructure"
 )
 
 type input struct {
@@ -17,28 +18,28 @@ type testcase struct {
 	expected []int
 }
 
-func TestMergeTwoLists(t *testing.T) {
+func TestAddTwoNumbers(t *testing.T) {
 	testcases := []testcase{
 		{
 			input: input{
-				list1: []int{1, 2, 4},
-				list2: []int{1, 3, 4},
+				list1: []int{2, 4, 3},
+				list2: []int{5, 6, 4},
 			},
-			expected: []int{1, 1, 2, 3, 4, 4},
-		},
-		{
-			input: input{
-				list1: []int{},
-				list2: []int{},
-			},
-			expected: []int{},
+			expected: []int{7, 0, 8},
 		},
 		{
 			input: input{
 				list1: []int{0},
-				list2: []int{},
+				list2: []int{0},
 			},
 			expected: []int{0},
+		},
+		{
+			input: input{
+				list1: []int{9, 9, 9, 9, 9, 9, 9},
+				list2: []int{9, 9, 9, 9},
+			},
+			expected: []int{8, 9, 9, 9, 0, 0, 0, 1},
 		},
 	}
 
@@ -46,11 +47,15 @@ func TestMergeTwoLists(t *testing.T) {
 		assert.Equal(
 			t,
 			datastructure.MakeList(testcase.expected),
-			mergeTwoLists_Recursive(
+			addTwoNumbers_Recursion(
 				datastructure.MakeList(testcase.input.list1),
 				datastructure.MakeList(testcase.input.list2),
 			),
-			mergeTwoLists_Iterative(
+		)
+		assert.Equal(
+			t,
+			datastructure.MakeList(testcase.expected),
+			addTwoNumbers_Iteration(
 				datastructure.MakeList(testcase.input.list1),
 				datastructure.MakeList(testcase.input.list2),
 			),
