@@ -56,7 +56,7 @@ func addTwoNumbers_Iteration(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 
 	if carry != 0 {
-		result, current = newNode(result, current, carry)
+		result, _ = newNode(result, current, carry)
 	}
 
 	return result
