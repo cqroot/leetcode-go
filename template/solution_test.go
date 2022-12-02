@@ -16,7 +16,7 @@ type testcase struct {
 	expected int
 }
 
-func TestXxx(t *testing.T) {
+func TestAdd(t *testing.T) {
 	testcases := []testcase{
 		{
 			input: input{
