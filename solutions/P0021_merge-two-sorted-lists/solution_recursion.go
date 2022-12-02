@@ -1,8 +1,9 @@
-package solution
-
 // Recursion
 // Time complexity  : O(len(list1) + len(list2))
 // Space complexity : O(len(list1) + len(list2))
+
+package solution
+
 func mergeTwoLists_Recursion(list1 *ListNode, list2 *ListNode) *ListNode {
 	if list1 == nil {
 		return list2

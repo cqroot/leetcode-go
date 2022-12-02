@@ -1,3 +1,7 @@
+// Stack
+// Time complexity  : O(len(s))
+// Space complexity : O(len(s))
+
 package solution
 
 type stack struct {
@@ -25,9 +29,6 @@ func (s stack) top() rune {
 	}
 }
 
-// Stack
-// Time complexity  : O(len(s))
-// Space complexity : O(len(s))
 func isValid(s string) bool {
 	bracketMap := map[rune]rune{
 		')': '(',

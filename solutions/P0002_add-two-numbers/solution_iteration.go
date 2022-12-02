@@ -1,3 +1,7 @@
+// Iteration
+// Time complexity  : O(max(len(l1), len(l2)))
+// Space complexity : O(1)
+
 package solution
 
 func newNode(result, current *ListNode, val int) (*ListNode, *ListNode) {
@@ -16,9 +20,6 @@ func newNode(result, current *ListNode, val int) (*ListNode, *ListNode) {
 	return result, current
 }
 
-// Iteration
-// Time complexity  : O(max(len(l1), len(l2)))
-// Space complexity : O(1)
 func addTwoNumbers_Iteration(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil {
 		return l2
