@@ -1,8 +1,8 @@
 package solution
 
 // Hash Table
-// Time complexity: O(n)
-// Space complexity: O(n)
+// Time complexity  : O(len(nums))
+// Space complexity : O(len(nums))
 func twoSum_HashTable(nums []int, target int) []int {
 	table := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
