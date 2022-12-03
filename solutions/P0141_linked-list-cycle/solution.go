@@ -1,4 +1,4 @@
-// Tow pointers
+// Tow Pointers
 // Time complexity  : O(len(list))
 // Space complexity : O(1)
 
