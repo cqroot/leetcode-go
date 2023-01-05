@@ -28,6 +28,6 @@ func TestIsValid(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, isValid(testcase.input))
+		assert.Equal(t, testcase.expected, isValid_Stack(testcase.input))
 	}
 }

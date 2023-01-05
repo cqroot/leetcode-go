@@ -29,7 +29,7 @@ func (s stack) top() rune {
 	}
 }
 
-func isValid(s string) bool {
+func isValid_Stack(s string) bool {
 	bracketMap := map[rune]rune{
 		')': '(',
 		'}': '{',
