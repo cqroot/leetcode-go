@@ -7,10 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-type input struct {
-	nums []int
-	val  int
-}
+type input = []int
 
 type expected struct {
 	nums []int
@@ -22,26 +19,27 @@ type testcase struct {
 	expected expected
 }
 
-func TestRemoveElement(t *testing.T) {
+func TestRemoveDuplicates(t *testing.T) {
 	testcases := []testcase{
 		{
-			input: input{
-				nums: []int{3, 2, 2, 3},
-				val:  3,
-			},
+			input: []int{1, 1, 2},
 			expected: expected{
-				nums: []int{2, 2},
+				nums: []int{1, 2},
 				val:  2,
 			},
 		},
 		{
-			input: input{
-				nums: []int{0, 1, 2, 2, 3, 0, 4, 2},
-				val:  2,
-			},
+			input: []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4},
 			expected: expected{
-				nums: []int{0, 1, 4, 0, 3},
+				nums: []int{0, 1, 2, 3, 4},
 				val:  5,
+			},
+		},
+		{
+			input: []int{1},
+			expected: expected{
+				nums: []int{1},
+				val:  1,
 			},
 		},
 	}
@@ -63,18 +61,12 @@ func TestRemoveElement(t *testing.T) {
 			}
 		}
 
-		actualNums := make([]int, len(testcase.input.nums))
+		actualNums := make([]int, len(testcase.input))
 
-		copy(actualNums, testcase.input.nums)
+		copy(actualNums, testcase.input)
 		fTest(
-			removeElement_TwoPointers1(actualNums, testcase.input.val),
+			removeDuplicates_TwoPointers(actualNums),
 			actualNums,
-		)
-
-		copy(actualNums, testcase.input.nums)
-		fTest(
-			removeElement_TwoPointers2(testcase.input.nums, testcase.input.val),
-			testcase.input.nums,
 		)
 	}
 }

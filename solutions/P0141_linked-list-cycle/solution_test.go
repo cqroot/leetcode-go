@@ -12,7 +12,7 @@ type testcase struct {
 	expected bool
 }
 
-func TestAdd(t *testing.T) {
+func TestHasCycle(t *testing.T) {
 	l1 := datastructure.MakeList([]int{3, 2, 0, -4})
 	l1.Next.Next.Next.Next = l1.Next
 
