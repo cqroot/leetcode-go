@@ -66,6 +66,6 @@ func TestGetIntersectionNode(t *testing.T) {
 
 	for _, testcase := range testcases {
 		assert.Equal(t, testcase.expected, getIntersectionNode_TwoPointers(testcase.input.a, testcase.input.b))
-        assert.Equal(t, testcase.expected, getIntersectionNode_HashTable(testcase.input.a, testcase.input.b))
+		assert.Equal(t, testcase.expected, getIntersectionNode_HashTable(testcase.input.a, testcase.input.b))
 	}
 }

@@ -4,3 +4,9 @@ test:
 	@sh -c "if grep -rn 'TestAdd(t \*testing.T)' solutions/; then exit 1; fi"
 	@sh -c "if grep -rn '^// Name$$' solutions/; then exit 1; fi"
 	go test -v ./...
+
+.PHONY: check
+check:
+	golangci-lint run
+	@echo
+	gofumpt -l .

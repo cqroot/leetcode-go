@@ -18,20 +18,20 @@ type testcase struct {
 
 func TestSearchInsert(t *testing.T) {
 	testcases := []testcase{
-        {
-            input: input{
-                nums:   []int{1, 3, 5, 6},
-                target: 5,
-            },
-            expected: 2,
-        },
-        {
-            input: input{
-                nums:   []int{1, 3, 5, 6},
-                target: 2,
-            },
-            expected: 1,
-        },
+		{
+			input: input{
+				nums:   []int{1, 3, 5, 6},
+				target: 5,
+			},
+			expected: 2,
+		},
+		{
+			input: input{
+				nums:   []int{1, 3, 5, 6},
+				target: 2,
+			},
+			expected: 1,
+		},
 		{
 			input: input{
 				nums:   []int{1, 3, 5, 6},
