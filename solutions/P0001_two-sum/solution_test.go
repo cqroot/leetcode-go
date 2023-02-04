@@ -3,7 +3,7 @@ package solution
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input struct {
@@ -49,7 +49,7 @@ func TestTwoSum(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, twoSum_BruteForce(testcase.input.nums, testcase.input.target))
-		assert.Equal(t, testcase.expected, twoSum_HashTable(testcase.input.nums, testcase.input.target))
+		require.Equal(t, testcase.expected, twoSum_BruteForce(testcase.input.nums, testcase.input.target))
+		require.Equal(t, testcase.expected, twoSum_HashTable(testcase.input.nums, testcase.input.target))
 	}
 }

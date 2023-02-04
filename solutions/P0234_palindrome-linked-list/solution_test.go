@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/cqroot/leetcode-go/datastructure"
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input *ListNode
@@ -35,8 +35,8 @@ func TestIsPalindrome(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, isPalindrome_Stack1(testcase.input))
-		assert.Equal(t, testcase.expected, isPalindrome_Stack2(testcase.input))
-		assert.Equal(t, testcase.expected, isPalindrome_Recursion(testcase.input))
+		require.Equal(t, testcase.expected, isPalindrome_Stack1(testcase.input))
+		require.Equal(t, testcase.expected, isPalindrome_Stack2(testcase.input))
+		require.Equal(t, testcase.expected, isPalindrome_Recursion(testcase.input))
 	}
 }

@@ -3,7 +3,7 @@ package solution
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input = []int
@@ -31,6 +31,6 @@ func TestMoveZeroes(t *testing.T) {
 
 	for _, testcase := range testcases {
 		moveZeroes_TwoPointers(testcase.input)
-		assert.Equal(t, testcase.expected, testcase.input)
+		require.Equal(t, testcase.expected, testcase.input)
 	}
 }

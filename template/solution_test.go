@@ -3,7 +3,7 @@ package solution
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input struct {
@@ -35,6 +35,6 @@ func TestAdd(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, add(testcase.input.a, testcase.input.b))
+		require.Equal(t, testcase.expected, add(testcase.input.a, testcase.input.b))
 	}
 }

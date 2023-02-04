@@ -3,7 +3,7 @@ package solution
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type testcase struct {
@@ -32,6 +32,6 @@ func TestSortColors(t *testing.T) {
 		copy(actualNums, testcase.input)
 
 		sortColors_TwoPointers(actualNums)
-		assert.Equal(t, testcase.expected, actualNums)
+		require.Equal(t, testcase.expected, actualNums)
 	}
 }

@@ -3,7 +3,7 @@ package solution
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 
 	"github.com/cqroot/leetcode-go/datastructure"
 )
@@ -44,7 +44,7 @@ func TestAddTwoNumbers(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(
+		require.Equal(
 			t,
 			datastructure.MakeList(testcase.expected),
 			addTwoNumbers_Recursion(
@@ -52,7 +52,7 @@ func TestAddTwoNumbers(t *testing.T) {
 				datastructure.MakeList(testcase.input.list2),
 			),
 		)
-		assert.Equal(
+		require.Equal(
 			t,
 			datastructure.MakeList(testcase.expected),
 			addTwoNumbers_Iteration(

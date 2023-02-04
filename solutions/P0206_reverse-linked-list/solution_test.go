@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/cqroot/leetcode-go/datastructure"
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type testcase struct {
@@ -45,7 +45,7 @@ func TestReverseList(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, reverseList_Iteration(testcase.input))
-		assert.Equal(t, testcase.expected, reverseList_Recursion(testcase.input))
+		require.Equal(t, testcase.expected, reverseList_Iteration(testcase.input))
+		require.Equal(t, testcase.expected, reverseList_Recursion(testcase.input))
 	}
 }

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/cqroot/leetcode-go/datastructure"
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input struct {
@@ -65,7 +65,7 @@ func TestGetIntersectionNode(t *testing.T) {
 	}
 
 	for _, testcase := range testcases {
-		assert.Equal(t, testcase.expected, getIntersectionNode_TwoPointers(testcase.input.a, testcase.input.b))
-		assert.Equal(t, testcase.expected, getIntersectionNode_HashTable(testcase.input.a, testcase.input.b))
+		require.Equal(t, testcase.expected, getIntersectionNode_TwoPointers(testcase.input.a, testcase.input.b))
+		require.Equal(t, testcase.expected, getIntersectionNode_HashTable(testcase.input.a, testcase.input.b))
 	}
 }

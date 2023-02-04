@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type input struct {
@@ -57,9 +57,9 @@ func TestRemoveElement(t *testing.T) {
 				return expectedNums[i] < expectedNums[j]
 			})
 
-			assert.Equal(t, testcase.expected.val, actualVal)
+			require.Equal(t, testcase.expected.val, actualVal)
 			for i := 0; i < testcase.expected.val; i++ {
-				assert.Equal(t, expectedNums[i], actualNums[i])
+				require.Equal(t, expectedNums[i], actualNums[i])
 			}
 		}
 
