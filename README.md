@@ -16,3 +16,4 @@ Binary Search:
 4. [278. First Bad Version](https://leetcode.com/problems/first-bad-version/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0278_first-bad-version)
 5. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0162_find-peak-element)
 6. [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0033_search-in-rotated-sorted-array)
+7. [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0153_find-minimum-in-rotated-sorted-array)
