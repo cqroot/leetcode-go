@@ -11,7 +11,7 @@
 <details>
     <summary>Binary Search</summary><br />
 
-| Title                                                                                                             | Solution                                                                                                       |
+| Problem                                                                                                           | Solution                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | [0704. Binary Search](https://leetcode.com/problems/binary-search/)                                               | [🔗](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0704_binary-search/solution.go)                |
 | [0374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)                 | [🔗](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0374_guess-number-higher-or-lower/solution.go) |
