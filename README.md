@@ -8,7 +8,8 @@
   </p>
 </div>
 
-Binary Search:
+<details>
+    <summary>Binary Search</summary>
 
 | Title                                                                                                             | Solution                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -19,3 +20,5 @@ Binary Search:
 | [0162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                       | [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0162_find-peak-element)                        |
 | [0033. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)             | [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0033_search-in-rotated-sorted-array)           |
 | [0153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0153_find-minimum-in-rotated-sorted-array)     |
+
+</details>
