@@ -16,10 +16,7 @@ var badVersion int
 //	true if current version is bad
 //	false if current version is good
 func isBadVersion(version int) bool {
-	if version >= badVersion {
-		return true
-	}
-	return false
+	return version >= badVersion
 }
 
 func firstBadVersion(n int) int {
