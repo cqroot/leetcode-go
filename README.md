@@ -7,3 +7,9 @@
     </a>
   </p>
 </div>
+
+Binary Search:
+
+1. [704. Binary Search](https://leetcode.com/problems/binary-search/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0704_binary-search/solution.go)
+2. [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0069_sqrtx/solution.go)
+3. [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/): [solution](https://github.com/cqroot/leetcode-go/blob/main/solutions/P0374_guess-number-higher-or-lower/solution.go)

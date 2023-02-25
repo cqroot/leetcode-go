@@ -28,15 +28,16 @@ func guessNumber(n int) int {
 
 	for left <= right {
 		mid = (left + right) / 2
+
 		switch guess(mid) {
-		case -1:
-			right = mid - 1
+		case 0:
+			return mid
 		case 1:
 			left = mid + 1
-		default:
-			return mid
+		case -1:
+			right = mid - 1
 		}
 	}
 
-	return 0
+	return -1
 }
