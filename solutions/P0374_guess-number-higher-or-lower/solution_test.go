@@ -14,15 +14,15 @@ type testcase struct {
 func TestGuessNumber(t *testing.T) {
 	testcases := []testcase{
 		{
-			input: 10,
+			input:    10,
 			expected: 6,
 		},
 		{
-			input: 1,
+			input:    1,
 			expected: 1,
 		},
 		{
-			input: 2,
+			input:    2,
 			expected: 1,
 		},
 	}
