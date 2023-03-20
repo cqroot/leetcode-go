@@ -11,7 +11,7 @@ type testcase struct {
 	expected []int
 }
 
-func TestAdd(t *testing.T) {
+func TestInorderTraversal(t *testing.T) {
 	testcases := []testcase{
 		{
 			input: &TreeNode{
