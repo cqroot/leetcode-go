@@ -18,6 +18,5 @@ func preorderTraversal_Recursion(root *TreeNode) []int {
 	}
 
 	traversal(root)
-
 	return vals
 }

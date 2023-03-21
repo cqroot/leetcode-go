@@ -4,7 +4,7 @@
 
 package solution
 
-func inorderTraversal_Recursion(root *TreeNode) []int {
+func postorderTraversal_Recursion(root *TreeNode) []int {
 	vals := make([]int, 0, 100)
 
 	var traversal func(node *TreeNode)
@@ -13,8 +13,8 @@ func inorderTraversal_Recursion(root *TreeNode) []int {
 			return
 		}
 		traversal(node.Left)
-		vals = append(vals, node.Val)
 		traversal(node.Right)
+		vals = append(vals, node.Val)
 	}
 
 	traversal(root)
