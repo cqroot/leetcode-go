@@ -19,22 +19,22 @@ type testcase struct {
 
 func TestCombine(t *testing.T) {
 	testcases := []testcase{
-		// {
-		// 	input: input{
-		// 		n: 4,
-		// 		k: 2,
-		// 	},
-		// 	expected: [][]int{
-		// 		{1, 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4}, {3, 4},
-		// 	},
-		// },
-		// {
-		// 	input: input{
-		// 		n: 1,
-		// 		k: 1,
-		// 	},
-		// 	expected: [][]int{{1}},
-		// },
+		{
+			input: input{
+				n: 4,
+				k: 2,
+			},
+			expected: [][]int{
+				{1, 2}, {1, 3}, {1, 4}, {2, 3}, {2, 4}, {3, 4},
+			},
+		},
+		{
+			input: input{
+				n: 1,
+				k: 1,
+			},
+			expected: [][]int{{1}},
+		},
 		{
 			input: input{
 				n: 5,
