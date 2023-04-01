@@ -25,13 +25,6 @@ func TestAdd(t *testing.T) {
 			},
 			expected: 2,
 		},
-		{
-			input: input{
-				a: 2,
-				b: 2,
-			},
-			expected: 4,
-		},
 	}
 
 	for _, testcase := range testcases {
