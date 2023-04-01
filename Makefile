@@ -10,4 +10,4 @@ test:
 check:
 	golangci-lint run
 	@echo
-	gofumpt -l .
+	if [ -z "$(gofumpt -l .)" ]; then gofumpt -l .; exit 1; fi

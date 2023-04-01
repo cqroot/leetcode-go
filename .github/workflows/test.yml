@@ -35,7 +35,7 @@ jobs:
       - name: Install gofumpt
         run: go install mvdan.cc/gofumpt@latest
       - name: Format check
-        run: gofumpt -l .
+        run: if [ -z "$(gofumpt -l .)" ]; then gofumpt -l .; exit 1; fi
 
       - name: Test
         run: make test
