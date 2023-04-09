@@ -16,7 +16,3 @@ commit:
       note: "ci: Changes to our CI configuration files and scripts (examples: CircleCi, SauceLabs)"
     - text: 🧪
       note: "test: Adding missing tests or correcting existing tests"
-    # - text: 🐛
-    #   note: "fix: A bug fix"
-    # - text: ⚡️
-    #   note: "perf: A code change that improves performance"
