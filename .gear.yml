@@ -1,8 +1,5 @@
 commit:
-  disable-scope: true
-  disable-body: true
-  disable-footer: true
-  remove-colon: true
+  message-template: "{{.Type}} {{if .Scope}}({{.Scope}}): {{end}}{{.Summary}}"
   types:
     - text: ✨
       note: "feat: A new feature"
