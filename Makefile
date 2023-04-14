@@ -11,3 +11,7 @@ check:
 	golangci-lint run
 	@echo
 	if [ -n "$(gofumpt -l .)" ]; then gofumpt -l .; exit 1; fi
+
+.PHONY: tree
+tree:
+	exa --only-dirs --long --header --git --icons --tree --level=4 --level 2
