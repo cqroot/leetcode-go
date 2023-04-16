@@ -31,7 +31,7 @@ func TestSortColors(t *testing.T) {
 		actualNums := make([]int, len(testcase.input))
 		copy(actualNums, testcase.input)
 
-		sortColors_TwoPointers(actualNums)
+		sortColors(actualNums)
 		require.Equal(t, testcase.expected, actualNums)
 	}
 }

@@ -65,7 +65,7 @@ func TestRemoveDuplicates(t *testing.T) {
 
 		copy(actualNums, testcase.input)
 		fTest(
-			removeDuplicates_TwoPointers(actualNums),
+			removeDuplicates(actualNums),
 			actualNums,
 		)
 	}

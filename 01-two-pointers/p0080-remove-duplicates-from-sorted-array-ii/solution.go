@@ -4,7 +4,7 @@
 
 package solution
 
-func removeDuplicates_TwoPointers(nums []int) int {
+func removeDuplicates(nums []int) int {
 	left, right := 0, 1
 
 	first := true

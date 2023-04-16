@@ -4,7 +4,7 @@
 
 package solution
 
-func sortColors_TwoPointers(nums []int) {
+func sortColors(nums []int) {
 	i, left, right := 0, 0, len(nums)-1
 
 	for i <= right {
