@@ -18,7 +18,7 @@ func TestLongestCommonPrefix(t *testing.T) {
 			expected: "fl",
 		},
 		{
-			input:    []string{"dog","racecar","car"},
+			input:    []string{"dog", "racecar", "car"},
 			expected: "",
 		},
 	}
