@@ -11,7 +11,7 @@ test:
 check:
 	golangci-lint run
 	@echo
-	if [ -n "$(gofumpt -l .)" ]; then gofumpt -l .; $(error need formatting); exit 1; fi
+	if [ -n "$(gofumpt -l .)" ]; then gofumpt -l .; exit 1; fi
 
 .PHONY: tree
 tree:
