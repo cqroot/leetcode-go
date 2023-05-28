@@ -1,6 +1,6 @@
 // Dynamic Programming
 // Time complexity  : O(mn)
-// Space complexity : O(1)
+// Space complexity : O(mn)
 
 package solution
 
